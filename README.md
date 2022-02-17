@@ -49,7 +49,7 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 - 4. Describe the worst case input value of `key` for `linear_search`? for `binary_search`? 
 
 **TODO: your answer goes here**
-**Answer:**  The worst case for both linear_search and binary_search is the same (their runtime is different): value of the key is not in the searched array. Both algorithms have to loop the whole array to return the reuslt. 
+**Answer:**  The worst case input value for both linear_search and binary_search is the same (but their runtime is different): value of the key is not in the searched array. 
 Worst case runtime of linear search: $O(n)$
 Worst case runtime of binary search: $O(log(n))$
 
