@@ -79,7 +79,7 @@ Worst case runtime of binary search: $O(log(n))$
 - 9. The theoretical worst-case running time of linear search is $O(n)$ and binary search is $O(log_2(n))$. Do these theoretical running times match your empirical results? Why or why not?
 
 **TODO: your answer goes here**
-**Answer:** The theoretical running time matches our empirical results. Based on the timing result above, we can tell that the runtime of linear search grows linearly as the input size $n$ getting larger, while the runtime of binary search grows significantly.
+**Answer:** The theoretical running time matches our empirical results. Based on the timing result above, we can tell that the runtime of linear search grows linearly as the input size $n$ getting larger, while the runtime of binary search does not grow significantly.
 
 - 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
   + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **TODO: your answer goes here**
