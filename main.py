@@ -63,7 +63,7 @@ def test_binary_search():
 def time_search(search_fn, mylist, key):
 	"""
 	Return the number of milliseconds to run this
-	search function on this list.
+	search function on this list..
 
 	Note 1: `sort_fn` parameter is a function.
 	Note 2: time.time() returns the current time in seconds. 
